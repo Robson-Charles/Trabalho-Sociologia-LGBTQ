@@ -27,8 +27,8 @@ li h2 #numQuestao{
 }
 li{
     margin: 10%;
-    height: 10vh;
-    font-size: 5vh;
+    height: 5vh;
+    font-size: 3vh;
 }
 li:hover{
     box-shadow: 0 0.4rem 1.4rem black;
