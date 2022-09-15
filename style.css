@@ -26,7 +26,7 @@ li h2 #numQuestao{
     font-family: 'Silkscreen', cursive;
 }
 li{
-    margin: 10%;
+    margin-bottom: 15vh;
     height: 5vh;
     font-size: 3vh;
 }
