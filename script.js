@@ -194,7 +194,7 @@ function fimDoJogo() {
     pergunta.textContent   = "Você conseguiu " + pontos + " " + pont
 
     aviso.textContent = "Você conseguiu " + pontos + " " + pont
-
+    bloquearAlternativas()
     a.textContent = ""
     b.textContent = ""
     c.textContent = ""
