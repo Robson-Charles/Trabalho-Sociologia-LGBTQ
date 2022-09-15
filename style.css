@@ -40,3 +40,13 @@ li:hover{
     
     font-size: 4vh;
 }
+.bloqueado {
+    display: none;
+}
+
+.bloqueado li:hover {
+    display: none;
+}
+#instrucoes{
+    margin-bottom: 1%
+}

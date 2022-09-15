@@ -37,7 +37,7 @@
             </div>
             <div class="modal-body ">
                 <p>Programador: Robson Charles Salviano de Lima</P>
-                <p>Ideias: lidia, robert</p>
+                <p>Ideias: Lídia Macedo; <br>Cauã Rodrigues; <br> Lucas Gusmão; <br> Robert</p>
             </div>
             </div>
         </div>
@@ -62,8 +62,13 @@
                 <div class="modal-header " >
 
                     <header class="questao">
+                        <article class='text-white centro pb-1 ' id='instrucoes'>
+                            Leia a questão e clique na resposta correta
+                        </article>
                         <h2 id="pergunta" class="text-white d-block "> </h2>
-                        <span class="text-white" id="numQuestao"></span>
+                        
+
+                        
                     </header>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
@@ -73,7 +78,9 @@
                         <li style="list-style: none" id="b" value="1B" class="respostas text-white" onClick="verificarSeAcertou(this, this)"></li> 
                         <li style="list-style: none" id="c" value="1C" class="respostas text-white" onClick="verificarSeAcertou(this, this)"></li>     
                     </ol>
-                    
+                    <article class='centro' id='instrucoes'></article>
+                    <span id='numQuestao'></span>
+                    <article class="text-white" id='aviso'>Questão <span id='numero'></span> de <span id='total'></span></article>
                 </div>
 
             </article>
