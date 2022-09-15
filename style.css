@@ -13,7 +13,7 @@ a{
 a:hover{
     color: grey;
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem black;
+    /*box-shadow: 0 0.4rem 1.4rem black;*/
     transition: transform 150ms;
     transform: scale(1.03);
 }
